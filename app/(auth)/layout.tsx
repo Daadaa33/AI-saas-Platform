@@ -1,11 +1,9 @@
-import React from 'react'
-
-const AuthLayout = ({children } : {children : React.ReactNode}) => {
+const AuthLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className='flex justify-center items-center h-full'>
-        {children}
-    </div>
-  )
-}
+    <main className="h-full bg-[#111827] flex items-center justify-center">
+      {children}
+    </main>
+  );
+};
 
-export default AuthLayout
+export default AuthLayout;
